@@ -1,0 +1,13 @@
+.nav {
+  background-color: #f9f9fa;
+  padding: 20px 10%;
+  border-top: 1px solid #dedede;
+}
+.nav__list {
+  display: flex;
+  justify-content: space-between;
+}
+.nav__link {
+  text-decoration: none;
+  color: inherit;
+}
