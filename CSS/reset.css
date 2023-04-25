@@ -131,3 +131,8 @@ table {
 #login-form input:focus {
   outline: None;
 }
+
+a {
+  color: inherit;
+  text-decoration: none;
+}

@@ -1,13 +1,40 @@
 .nav {
-  background-color: #f9f9fa;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  background-color: var(--grey);
   padding: 20px 10%;
-  border-top: 1px solid #dedede;
+  box-sizing: border-box;
+  border-top: 1px solid var(--dgrey);
 }
 .nav__list {
   display: flex;
   justify-content: space-between;
 }
 .nav__link {
-  text-decoration: none;
-  color: inherit;
+  color: #2f363e;
+  position: relative;
+}
+.nav_notification {
+  background-color: #ff6229;
+  color: white;
+  width: 30px;
+  height: 30px;
+  border-radius: 15px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: 600;
+  position: absolute;
+  left: 20px;
+  bottom: 15px;
+}
+.nav_badge {
+  background-color: #ff6229;
+  width: 8px;
+  height: 8px;
+  border-radius: 4px;
+  position: absolute;
+  left: 35px;
+  bottom: 25px;
 }
